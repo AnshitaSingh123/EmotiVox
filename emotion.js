@@ -9,7 +9,7 @@ form.addEventListener("submit", (e) => {
     console.log(text);
     const data = { key: `${text}` };
 
-    fetch('http://localhost:5000/data', {
+    fetch('http://localhost:5001/data', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
